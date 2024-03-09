@@ -1,0 +1,10 @@
+
+https://cloud.google.com/run/docs/quickstarts/build-and-deploy/deploy-python-service  ( steps for setting up Gcloud CLI)
+cd src ( navigate to work director)
+
+pip install -r requirements.txt ( install dependencies)
+
+flask --app main --debug run ( for local testing)
+
+gcloud run deploy 
+
